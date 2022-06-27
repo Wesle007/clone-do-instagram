@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100hv;
+    background-color: rgb(243, 243, 243);
+    /* background-color: red; */
+}
+.container{
+    width: 70%;
+    margin:  auto;
+    display: flex;
+    padding:30px;
+    justify-content: start;
+    /* background-color: blue; */
+}
+.celular{
+    display: flex;
+    justify-content: center;
+   width: 50%;
+    /* background-color: green; */
+}
+.celular img{
+    height: 37rem;
+    /* background-color: #0095f6; */
+}
+
+
+.foto{
+    width: 5.4rem;
+    height: 5.4rem;
+    border-radius: 50%;
+}
+.continue{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 50%;
+    height: 100hv;
+    /* background-color: blue; */
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    height: 50%;
+    margin-bottom: 5px;
+    /* background-color: yellow; */
+}
+.perfil .logo{
+    width: 9.917rem;
+    height: 2.8rem;
+}
+.perfil .remove-conta{
+    color: #0095f6;
+}
+.btn-continue{
+    background-color: #0095f6;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.confirme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    height: 10%;
+}
+.confirme p{
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+}
+.ou{
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.confirme a {
+   color:  #0095f6;
+   margin: 0.2rem 0.6rem;
+   font-size: 14.5px;
+}
+.baixar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baixar p {
+    margin-top:2rem;
+    
+ }
+ 
+
+.stores a img {
+   margin-top:1rem;
+    height: 2.5rem;   
+}
+
+@media (max-width: 993px){
+    .container{
+        width: 90%;   
+    }
+}
+@media (max-width: 777px){
+    .container{
+        width: 100%;   
+    }
+}
+
+@media (max-width:660px) {
+   body{
+    background-color: #fff;
+   }
+    .celular {
+        display: none;
+    }
+    .container{
+        height: 100vh;
+    }
+    
+    .continue{
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+        height:100%;
+        
+    }
+    .perfil{
+        border: none;
+    }
+    .confirme {
+        border: none;
+    }
+    
+}
